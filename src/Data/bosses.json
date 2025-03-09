@@ -1,0 +1,622 @@
+[
+    {
+        "id": 1,
+        "name": "Asylum Demon",
+        "image": "https://example.com/asylum_demon.jpg",
+        "diff": 3,
+        "health": 820,
+        "description": "A massive demon guarding the exit of the Undead Asylum.",
+        "location": "Northern Undead Asylum",
+        "weapon": "Demon's Great Hammer"
+    },
+    {
+        "id": 2,
+        "name": "Bell Gargoyles",
+        "image": "https://example.com/bell_gargoyles.jpg",
+        "diff": 6,
+        "health": 1092,
+        "description": "Twin gargoyles protecting the bell of awakening.",
+        "location": "Undead Parish",
+        "weapon": "Gargoyle Tail Axe"
+    },
+    {
+        "id": 3,
+        "name": "Capra Demon",
+        "image": "https://example.com/capra_demon.jpg",
+        "diff": 5,
+        "health": 1000,
+        "description": "A goat-headed demon wielding two machetes.",
+        "location": "Lower Undead Burg",
+        "weapon": "Demon's Machete"
+    },
+    {
+        "id": 4,
+        "name": "Ceaseless Discharge",
+        "image": "https://example.com/ceaseless_discharge.jpg",
+        "diff": 6,
+        "health": 5312,
+        "description": "A massive lava creature guarding the ruins.",
+        "location": "Demon Ruins",
+        "weapon": "Gold-Hemmed Black Set"
+    },
+    {
+        "id": 5,
+        "name": "Centipede Demon",
+        "image": "https://example.com/centipede_demon.jpg",
+        "diff": 7,
+        "health": 1800,
+        "description": "A grotesque demon with the appearance of a giant centipede.",
+        "location": "Lost Izalith",
+        "weapon": "Demon's Great Hammer"
+    },
+    {
+        "id": 6,
+        "name": "Chaos Witch Quelaag",
+        "image": "https://example.com/quelaag.jpg",
+        "diff": 7,
+        "health": 3000,
+        "description": "A half-woman, half-spider pyromancer.",
+        "location": "Blighttown",
+        "weapon": "Quelaag's Furysword"
+    },
+    {
+        "id": 7,
+        "name": "Crossbreed Priscilla",
+        "image": "https://example.com/priscilla.jpg",
+        "diff": 5,
+        "health": 3000,
+        "description": "A hybrid of dragon and human with a deadly scythe.",
+        "location": "Painted World of Ariamis",
+        "weapon": "Lifehunt Scythe"
+    },
+    {
+        "id": 8,
+        "name": "Dark Sun Gwyndolin",
+        "image": "https://example.com/gwyndolin.jpg",
+        "diff": 7,
+        "health": 2300,
+        "description": "The Dark Sun deity guarding Anor Londo's illusions.",
+        "location": "Anor Londo",
+        "weapon": "Darkmoon Bow"
+    },
+    {
+        "id": 9,
+        "name": "Demon Firesage",
+        "image": "https://example.com/demon_firesage.jpg",
+        "diff": 8,
+        "health": 3200,
+        "description": "A demon imbued with fire, a larger version of the Asylum Demon.",
+        "location": "Demon Ruins",
+        "weapon": "Demon's Great Hammer"
+    },
+    {
+        "id": 10,
+        "name": "Four Kings",
+        "image": "https://example.com/four_kings.jpg",
+        "diff": 9,
+        "health": 4800,
+        "description": "Dark specters ruling the Abyss.",
+        "location": "The Abyss",
+        "weapon": "Bequeathed Lord Soul Shard"
+    },
+    {
+        "id": 11,
+        "name": "Gaping Dragon",
+        "image": "https://example.com/gaping_dragon.jpg",
+        "diff": 5,
+        "health": 2950,
+        "description": "A grotesque dragon with a gaping maw.",
+        "location": "Depths",
+        "weapon": "Dragon King Greataxe"
+    },
+    {
+        "id": 12,
+        "name": "Great Grey Wolf Sif",
+        "image": "https://example.com/sif.jpg",
+        "diff": 7,
+        "health": 4500,
+        "description": "A loyal wolf, guardian of the grave of Artorias.",
+        "location": "Oolacile Township",
+        "weapon": "Greatsword of Artorias"
+    },
+    {
+        "id": 13,
+        "name": "Gwyn, Lord of Cinder",
+        "image": "https://example.com/gwyn.jpg",
+        "diff": 10,
+        "health": 5000,
+        "description": "The Lord of Cinder, once the leader of the gods.",
+        "location": "Kiln of the First Flame",
+        "weapon": "Gwyn's Greatsword"
+    },
+    {
+        "id": 14,
+        "name": "Iron Golem",
+        "image": "https://example.com/iron_golem.jpg",
+        "diff": 6,
+        "health": 3420,
+        "description": "A giant iron warrior guarding Sen's Fortress.",
+        "location": "Sen's Fortress",
+        "weapon": "Core of an Iron Golem"
+    },
+    {
+        "id": 15,
+        "name": "Moonlight Butterfly",
+        "image": "https://example.com/moonlight_butterfly.jpg",
+        "diff": 4,
+        "health": 900,
+        "description": "A magical butterfly that fires sorcery attacks.",
+        "location": "Darkroot Garden",
+        "weapon": "Moonlight Butterfly Horn"
+    },
+    {
+        "id": 16,
+        "name": "Nito",
+        "image": "https://example.com/nito.jpg",
+        "diff": 8,
+        "health": 4200,
+        "description": "The first of the dead, ruler of the Catacombs.",
+        "location": "Tomb of the Giants",
+        "weapon": "Gravelord Sword"
+    },
+    {
+        "id": 17,
+        "name": "Ornstein & Smough",
+        "image": "https://example.com/ornstein_smough.jpg",
+        "diff": 10,
+        "health": 1980,
+        "description": "A deadly duo guarding Princess Gwynevere.",
+        "location": "Anor Londo",
+        "weapon": "Dragonslayer Spear & Smough's Hammer"
+    },
+    {
+        "id": 18,
+        "name": "Pinwheel",
+        "image": "https://example.com/pinwheel.jpg",
+        "diff": 4,
+        "health": 400,
+        "description": "A strange creature wearing a mask, master of necromancy.",
+        "location": "Tomb of the Giants",
+        "weapon": "Pinwheel's Mask"
+    },
+    {
+        "id": 19,
+        "name": "Seath the Scaleless",
+        "image": "https://example.com/seath.jpg",
+        "diff": 7,
+        "health": 4900,
+        "description": "The treacherous dragon who betrayed his own kin.",
+        "location": "Duke's Archives",
+        "weapon": "Moonlight Greatsword"
+    },
+    {
+        "id": 20,
+        "name": "Stray Demon",
+        "image": "https://example.com/stray_demon.jpg",
+        "diff": 6,
+        "health": 5000,
+        "description": "A stronger version of the Asylum Demon.",
+        "location": "Northern Undead Asylum",
+        "weapon": "Titanite Slab"
+    },
+    {
+        "id": 21,
+        "name": "Taurus Demon",
+        "image": "https://example.com/taurus_demon.jpg",
+        "diff": 4,
+        "health": 1210,
+        "description": "A towering demon wielding a massive great axe.",
+        "location": "Undead Burg",
+        "weapon": "Demon's Greataxe"
+    },
+    {
+        "id": 22,
+        "name": "The Bed of Chaos",
+        "image": "https://example.com/bed_of_chaos.jpg",
+        "diff": 8,
+        "health": 1500,
+        "description": "The source of all demons, a chaotic entity of fire.",
+        "location": "Lost Izalith",
+        "weapon": "None"
+    },
+    {
+        "id": 23,
+        "name": "Artorias the Abysswalker",
+        "image": "https://example.com/artorias.jpg",
+        "diff": 9,
+        "health": 6500,
+        "description": "A legendary knight who fell to the Abyss.",
+        "location": "Oolacile Township",
+        "weapon": "Abyss Greatsword"
+    },
+    {
+        "id": 24,
+        "name": "Black Dragon Kalameet",
+        "image": "https://example.com/kalameet.jpg",
+        "diff": 10,
+        "health": 7000,
+        "description": "A powerful ancient dragon untouched by time.",
+        "location": "Royal Wood",
+        "weapon": "Obsidian Greatsword"
+    },
+    {
+        "id": 25,
+        "name": "Manus, Father of the Abyss",
+        "image": "https://example.com/manus.jpg",
+        "diff": 10,
+        "health": 6700,
+        "description": "The primeval man consumed by darkness.",
+        "location": "Chasm of the Abyss",
+        "weapon": "Manus Catalyst"
+    },
+    {
+        "id": 26,
+        "name": "Sanctuary Guardian",
+        "image": "https://example.com/sanctuary_guardian.jpg",
+        "diff": 7,
+        "health": 4400,
+        "description": "A fierce chimera guarding the Oolacile Sanctuary.",
+        "location": "Royal Wood",
+        "weapon": "Guardian Tail"
+    },
+    {
+        "id": 27,
+        "name": "The Last Giant",
+        "image": "https://example.com/the_last_giant.jpg",
+        "diff": 5,
+        "health": 2500,
+        "description": "A colossal giant whose body is in a constant state of decay.",
+        "location": "Forest of the Fallen Giants",
+        "weapon": "Giant's Club"
+    },
+    {
+        "id": 28,
+        "name": "The Pursuer",
+        "image": "https://example.com/the_pursuer.jpg",
+        "diff": 7,
+        "health": 3500,
+        "description": "A relentless knight who hunts the player through the lands.",
+        "location": "The Lost Bastille",
+        "weapon": "Pursuer's Ultra Greatsword"
+    },
+    {
+        "id": 29,
+        "name": "Executioner's Chariot",
+        "image": "https://example.com/executioners_chariot.jpg",
+        "diff": 6,
+        "health": 4000,
+        "description": "A massive chariot driven by the dead, with a deadly rider.",
+        "location": "Undead Purgatory",
+        "weapon": "Executioner's Chariot Wheel"
+    },
+    {
+        "id": 30,
+        "name": "The Skeleton Lords",
+        "image": "https://example.com/skeleton_lords.jpg",
+        "diff": 6,
+        "health": 3300,
+        "description": "A trio of powerful skeletons controlling a horde of undead.",
+        "location": "Skeletal Lair",
+        "weapon": "Soul Arrows"
+    },
+    {
+        "id": 31,
+        "name": "Flexile Sentry",
+        "image": "https://example.com/flexile_sentry.jpg",
+        "diff": 6,
+        "health": 4500,
+        "description": "A twisted, dual-headed creature guarding the passage.",
+        "location": "No-Man's Wharf",
+        "weapon": "Flexile Sentry's Greatsword"
+    },
+    {
+        "id": 32,
+        "name": "Lost Sinner",
+        "image": "https://example.com/lost_sinner.jpg",
+        "diff": 8,
+        "health": 4200,
+        "description": "A dark figure imprisoned for her sins.",
+        "location": "Sinner's Rise",
+        "weapon": "Lost Sinner's Sword"
+    },
+    {
+        "id": 33,
+        "name": "Belfry Gargoyles",
+        "image": "https://example.com/belfry_gargoyles.jpg",
+        "diff": 7,
+        "health": 3400,
+        "description": "A group of gargoyles protecting the Belfry.",
+        "location": "Belfry Luna",
+        "weapon": "Gargoyle Tail Axe"
+    },
+    {
+        "id": 34,
+        "name": "Ruin Sentinel",
+        "image": "https://example.com/ruin_sentinel.jpg",
+        "diff": 6,
+        "health": 2600,
+        "description": "Sentinel-like protectors, defending the ruined areas.",
+        "location": "Drangleic Castle",
+        "weapon": "Ruin Sentinels' Greatswords"
+    },
+    {
+        "id": 35,
+        "name": "Royal Rat Vanguard",
+        "image": "https://example.com/royal_rat_vanguard.jpg",
+        "diff": 5,
+        "health": 2200,
+        "description": "A pack of giant rats led by a royal leader.",
+        "location": "The Gutter",
+        "weapon": "Rat Tail"
+    },
+    {
+        "id": 36,
+        "name": "Royal Rat Authority",
+        "image": "https://example.com/royal_rat_authority.jpg",
+        "diff": 6,
+        "health": 3200,
+        "description": "The leader of the Royal Rats, a massive rat with authority.",
+        "location": "The Gutter",
+        "weapon": "Rat King's Staff"
+    },
+    {
+        "id": 37,
+        "name": "Scorpioness Najka",
+        "image": "https://example.com/scorpioness_najka.jpg",
+        "diff": 7,
+        "health": 4000,
+        "description": "A half-scorpion sorceress guarding the ruins.",
+        "location": "Shaded Woods",
+        "weapon": "Najka's Scorpion Tail"
+    },
+    {
+        "id": 38,
+        "name": "Mytha, the Baneful Queen",
+        "image": "https://example.com/mytha.jpg",
+        "diff": 8,
+        "health": 5000,
+        "description": "A cursed queen controlling the poisonous area.",
+        "location": "Earthen Peak",
+        "weapon": "Mytha's Staff"
+    },
+    {
+        "id": 39,
+        "name": "The Rotten",
+        "image": "https://example.com/the_rotten.jpg",
+        "diff": 9,
+        "health": 6500,
+        "description": "A decayed giant corrupted by the abyss.",
+        "location": "Black Gulch",
+        "weapon": "Rotten's Greatsword"
+    },
+    {
+        "id": 40,
+        "name": "Old Dragonslayer",
+        "image": "https://example.com/old_dragonslayer.jpg",
+        "diff": 7,
+        "health": 3600,
+        "description": "An ancient knight who fought dragons in the past.",
+        "location": "Heide's Tower of Flame",
+        "weapon": "Dragonslayer Spear"
+    },
+    {
+        "id": 41,
+        "name": "Covetous Demon",
+        "image": "https://example.com/covetous_demon.jpg",
+        "diff": 7,
+        "health": 5000,
+        "description": "A grotesque, greedy demon that devours souls.",
+        "location": "Harvest Valley",
+        "weapon": "Covetous Demon Soul"
+    },
+    {
+        "id": 42,
+        "name": "Smelter Demon",
+        "image": "https://example.com/smelter_demon.jpg",
+        "diff": 8,
+        "health": 6200,
+        "description": "A demon forged in molten metal.",
+        "location": "Iron Keep",
+        "weapon": "Smelter Demon Sword"
+    },
+    {
+        "id": 43,
+        "name": "Old Iron King",
+        "image": "https://example.com/old_iron_king.jpg",
+        "diff": 9,
+        "health": 7500,
+        "description": "A powerful, ancient king who rules over molten iron.",
+        "location": "Iron Keep",
+        "weapon": "Iron King's Greatsword"
+    },
+    {
+        "id": 44,
+        "name": "Guardian Dragon",
+        "image": "https://example.com/guardian_dragon.jpg",
+        "diff": 8,
+        "health": 6000,
+        "description": "A fearsome dragon protecting the final area of Drangleic.",
+        "location": "Drangleic Castle",
+        "weapon": "Guardian Dragon's Breath"
+    },
+    {
+        "id": 45,
+        "name": "Demon of Song",
+        "image": "https://example.com/demon_of_song.jpg",
+        "diff": 6,
+        "health": 4200,
+        "description": "A creature that lures victims with its siren-like voice.",
+        "location": "Shrine of Amana",
+        "weapon": "Demon's Song"
+    },
+    {
+        "id": 46,
+        "name": "Velstadt, the Royal Aegis",
+        "image": "https://example.com/velstadt.jpg",
+        "diff": 8,
+        "health": 8000,
+        "description": "A knight who served the King of Drangleic.",
+        "location": "Drangleic Castle",
+        "weapon": "Velstadt's Greatsword"
+    },
+    {
+        "id": 47,
+        "name": "Vendrick",
+        "image": "https://example.com/vendrick.jpg",
+        "diff": 10,
+        "health": 12000,
+        "description": "The fallen king of Drangleic, now a hollowed shell.",
+        "location": "Drangleic Castle",
+        "weapon": "Vendrick's Sword"
+    },
+    {
+        "id": 48,
+        "name": "Darklurker",
+        "image": "https://example.com/darklurker.jpg",
+        "diff": 9,
+        "health": 6000,
+        "description": "A mysterious being of the dark, dwelling in the Abyss.",
+        "location": "The Abyss",
+        "weapon": "Darklurker's Staff"
+    },
+    {
+        "id": 49,
+        "name": "Dragonrider",
+        "image": "https://example.com/dragonrider.jpg",
+        "diff": 7,
+        "health": 3200,
+        "description": "A knight who rides atop a dragon, guarding the castle.",
+        "location": "Heide's Tower of Flame",
+        "weapon": "Dragonrider Bow"
+    },
+    {
+        "id": 50,
+        "name": "Twin Dragonrider",
+        "image": "https://example.com/twin_dragonrider.jpg",
+        "diff": 8,
+        "health": 4200,
+        "description": "Two dragonriders working together to defeat invaders.",
+        "location": "Heide's Tower of Flame",
+        "weapon": "Twin Dragonrider Bows"
+    },
+    {
+        "id": 51,
+        "name": "Prowling Magus and Congregation",
+        "image": "https://example.com/prowling_magus.jpg",
+        "diff": 6,
+        "health": 5000,
+        "description": "A group of sorcerers attacking the player in waves.",
+        "location": "Brightstone Cove Tseldora",
+        "weapon": "Magus' Staff"
+    },
+    {
+        "id": 52,
+        "name": "Giant Lord",
+        "image": "https://example.com/giant_lord.jpg",
+        "diff": 9,
+        "health": 8500,
+        "description": "The giant ruler of an ancient kingdom.",
+        "location": "Giant's Cauldron",
+        "weapon": "Giant's Greatsword"
+    },
+    {
+        "id": 53,
+        "name": "Ancient Dragon",
+        "image": "https://example.com/ancient_dragon.jpg",
+        "diff": 10,
+        "health": 12000,
+        "description": "An ancient dragon that resides at the peak of the world.",
+        "location": "Dragon's Rest",
+        "weapon": "Ancient Dragon's Breath"
+    },
+    {
+        "id": 54,
+        "name": "Throne Watcher and Throne Defender",
+        "image": "https://example.com/throne_watchers.jpg",
+        "diff": 10,
+        "health": 8000,
+        "description": "The two protectors of the throne, standing in defense of the throne room.",
+        "location": "The Throne of Want",
+        "weapon": "Throne Watcher's Sword"
+    },
+    {
+        "id": 55,
+        "name": "Nashandra",
+        "image": "https://example.com/nashandra.jpg",
+        "diff": 10,
+        "health": 7000,
+        "description": "The queen of the Abyss, seeking to bring about the end of the world.",
+        "location": "The Throne of Want",
+        "weapon": "Nashandra's Scythe"
+    },
+    {
+        "id": 56,
+        "name": "Aldia, Scholar of the First Sin",
+        "image": "https://example.com/aldia.jpg",
+        "diff": 10,
+        "health": 8800,
+        "description": "The scholar of the First Sin, who seeks to rewrite the world.",
+        "location": "Aldia's Keep",
+        "weapon": "Aldia's Staff"
+    },
+    {
+        "id": 57,
+        "name": "Elana, Squalid Queen",
+        "image": "https://example.com/elana.jpg",
+        "diff": 9,
+        "health": 6500,
+        "description": "A queen who commands the Abyss, filled with dark sorcery.",
+        "location": "Shulva, Sanctum City",
+        "weapon": "Elana's Staff"
+    },
+    {
+        "id": 58,
+        "name": "Sinh, the Slumbering Dragon",
+        "image": "https://example.com/sinh.jpg",
+        "diff": 9,
+        "health": 9000,
+        "description": "A slumbering dragon of ancient power.",
+        "location": "Shulva, Sanctum City",
+        "weapon": "Sinh's Flame"
+    },
+    {
+        "id": 59,
+        "name": "Graverobber Varg, and Cerah",
+        "image": "https://example.com/graverobber_varg.jpg",
+        "diff": 7,
+        "health": 5000,
+        "description": "A duo of grave robbers protecting a dark area.",
+        "location": "Drangleic Castle",
+        "weapon": "Grave Robbers' Scythe"
+    },
+    {
+        "id": 60,
+        "name": "Smelter Demon",
+        "image": "https://example.com/smelter_demon_2.jpg",
+        "diff": 9,
+        "health": 6000,
+        "description": "A second encounter with the deadly Smelter Demon.",
+        "location": "Iron Keep",
+        "weapon": "Smelter Demon Sword"
+    },
+    {
+        "id": 61,
+        "name": "Fume Knight",
+        "image": "https://example.com/fume_knight.jpg",
+        "diff": 10,
+        "health": 8000,
+        "description": "A knight who wears a massive suit of armor, wielding the power of fume.",
+        "location": "The Crown of the Old Iron King",
+        "weapon": "Fume Sword"
+    },
+    {
+        "id": 62,
+        "name": "Sir Alonne",
+        "image": "https://example.com/sir_alonne.jpg",
+        "diff": 10,
+        "health": 11000,
+        "description": "A legendary knight who wields a powerful sword.",
+        "location": "The Crown of the Old Iron King",
+        "weapon": "Sir Alonne's Greatsword"
+    }
+]
