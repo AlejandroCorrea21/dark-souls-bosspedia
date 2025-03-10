@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "uno",
         "name": "Asylum Demon",
         "image": "https://example.com/asylum_demon.jpg",
         "game": 1,
@@ -11,7 +11,7 @@
         "weapon": "Demon's Great Hammer"
     },
     {
-        "id": 2,
+        "id": "dos",
         "name": "Bell Gargoyles",
         "image": "https://example.com/bell_gargoyles.jpg",
         "game": 1,
@@ -22,7 +22,7 @@
         "weapon": "Gargoyle Tail Axe"
     },
     {
-        "id": 3,
+        "id": "tres",
         "name": "Capra Demon",
         "image": "https://example.com/capra_demon.jpg",
         "game": 1,
@@ -33,7 +33,7 @@
         "weapon": "Demon's Machete"
     },
     {
-        "id": 4,
+        "id": "cuatro",
         "name": "Ceaseless Discharge",
         "image": "https://example.com/ceaseless_discharge.jpg",
         "game": 1,
@@ -44,7 +44,7 @@
         "weapon": "Gold-Hemmed Black Set"
     },
     {
-        "id": 5,
+        "id": "cinco",
         "name": "Centipede Demon",
         "image": "https://example.com/centipede_demon.jpg",
         "game": 1,
@@ -55,7 +55,7 @@
         "weapon": "Demon's Great Hammer"
     },
     {
-        "id": 6,
+        "id": "seis",
         "name": "Chaos Witch Quelaag",
         "image": "https://example.com/quelaag.jpg",
         "game": 1,
@@ -66,7 +66,7 @@
         "weapon": "Quelaag's Furysword"
     },
     {
-        "id": 7,
+        "id": "siete",
         "name": "Crossbreed Priscilla",
         "image": "https://example.com/priscilla.jpg",
         "game": 1,
@@ -77,7 +77,7 @@
         "weapon": "Lifehunt Scythe"
     },
     {
-        "id": 8,
+        "id": "ocho",
         "name": "Dark Sun Gwyndolin",
         "image": "https://example.com/gwyndolin.jpg",
         "game": 1,
@@ -88,7 +88,7 @@
         "weapon": "Darkmoon Bow"
     },
     {
-        "id": 9,
+        "id": "nueve",
         "name": "Demon Firesage",
         "image": "https://example.com/demon_firesage.jpg",
         "game": 1,
@@ -99,7 +99,7 @@
         "weapon": "Demon's Great Hammer"
     },
     {
-        "id": 10,
+        "id": "diez",
         "name": "Four Kings",
         "image": "https://example.com/four_kings.jpg",
         "game": 1,
@@ -110,7 +110,7 @@
         "weapon": "Bequeathed Lord Soul Shard"
     },
     {
-        "id": 11,
+        "id": "once",
         "name": "Gaping Dragon",
         "image": "https://example.com/gaping_dragon.jpg",
         "game": 1,
@@ -121,7 +121,7 @@
         "weapon": "Dragon King Greataxe"
     },
     {
-        "id": 12,
+        "id": "doce",
         "name": "Great Grey Wolf Sif",
         "image": "https://example.com/sif.jpg",
         "game": 1,
@@ -132,7 +132,7 @@
         "weapon": "Greatsword of Artorias"
     },
     {
-        "id": 13,
+        "id": "trece",
         "name": "Gwyn, Lord of Cinder",
         "image": "https://example.com/gwyn.jpg",
         "game": 1,
@@ -143,7 +143,7 @@
         "weapon": "Gwyn's Greatsword"
     },
     {
-        "id": 14,
+        "id": "catorce",
         "name": "Iron Golem",
         "image": "https://example.com/iron_golem.jpg",
         "game": 1,
@@ -154,7 +154,7 @@
         "weapon": "Core of an Iron Golem"
     },
     {
-        "id": 15,
+        "id": "quince",
         "name": "Moonlight Butterfly",
         "image": "https://example.com/moonlight_butterfly.jpg",
         "game": 1,
@@ -165,7 +165,7 @@
         "weapon": "Moonlight Butterfly Horn"
     },
     {
-        "id": 16,
+        "id": "dieciseis",
         "name": "Nito",
         "image": "https://example.com/nito.jpg",
         "game": 1,
@@ -176,7 +176,7 @@
         "weapon": "Gravelord Sword"
     },
     {
-        "id": 17,
+        "id": "diecisiete",
         "name": "Ornstein & Smough",
         "image": "https://example.com/ornstein_smough.jpg",
         "game": 1,
@@ -187,7 +187,7 @@
         "weapon": "Dragonslayer Spear & Smough's Hammer"
     },
     {
-        "id": 18,
+        "id": "dieciocho",
         "name": "Pinwheel",
         "image": "https://example.com/pinwheel.jpg",
         "game": 1,
@@ -198,95 +198,95 @@
         "weapon": "Pinwheel's Mask"
     },
     {
-        "id": 19,
+        "id": "diecinueve",
         "name": "Seath the Scaleless",
         "image": "https://example.com/seath.jpg",
         "game": 1,
         "diff": 7,
         "health": 4900,
-        "description": "The treacherous dragon who betrayed his own kin.",
+        "description": "The treacherous dragon who betrayed his own race.",
         "location": "Duke's Archives",
-        "weapon": "Moonlight Greatsword"
+        "weapon": "Moonlight Sword"
     },
     {
-        "id": 20,
+        "id": "veinte",
         "name": "Stray Demon",
         "image": "https://example.com/stray_demon.jpg",
         "game": 1,
         "diff": 6,
         "health": 5000,
         "description": "A stronger version of the Asylum Demon.",
-        "location": "Northern Undead Asylum",
-        "weapon": "Titanite Slab"
+        "location": "Asylum of the Undead",
+        "weapon": "Titanite Shard"
     },
     {
-        "id": 21,
+        "id": "veintiuno",
         "name": "Taurus Demon",
         "image": "https://example.com/taurus_demon.jpg",
         "game": 1,
         "diff": 4,
         "health": 1210,
-        "description": "A towering demon wielding a massive great axe.",
+        "description": "A colossal demon wielding a huge axe.",
         "location": "Undead Burg",
         "weapon": "Demon's Greataxe"
     },
     {
-        "id": 22,
-        "name": "The Bed of Chaos",
+        "id": "veintidos",
+        "name": "Bed of Chaos",
         "image": "https://example.com/bed_of_chaos.jpg",
         "game": 1,
         "diff": 8,
         "health": 1500,
-        "description": "The source of all demons, a chaotic entity of fire.",
+        "description": "The origin of all demons, a chaotic fire entity.",
         "location": "Lost Izalith",
         "weapon": "None"
     },
     {
-        "id": 23,
+        "id": "veintitres",
         "name": "Artorias the Abysswalker",
         "image": "https://example.com/artorias.jpg",
         "game": 1,
         "diff": 9,
         "health": 6500,
-        "description": "A legendary knight who fell to the Abyss.",
+        "description": "A legendary knight who fell into the Abyss.",
         "location": "Oolacile Township",
-        "weapon": "Abyss Greatsword"
+        "weapon": "Abyssal Greatsword"
     },
     {
-        "id": 24,
-        "name": "Black Dragon Kalameet",
+        "id": "veinticuatro",
+        "name": "Kalameet the Black Dragon",
         "image": "https://example.com/kalameet.jpg",
         "game": 1,
         "diff": 10,
         "health": 7000,
         "description": "A powerful ancient dragon untouched by time.",
-        "location": "Royal Wood",
-        "weapon": "Obsidian Greatsword"
+        "location": "Royal Woods",
+        "weapon": "Obsidian Sword"
     },
     {
-        "id": 25,
+        "id": "veinticinco",
         "name": "Manus, Father of the Abyss",
         "image": "https://example.com/manus.jpg",
         "game": 1,
         "diff": 10,
         "health": 6700,
-        "description": "The primeval man consumed by darkness.",
-        "location": "Chasm of the Abyss",
-        "weapon": "Manus Catalyst"
+        "description": "The primordial man consumed by darkness.",
+        "location": "Abyssal Hollow",
+        "weapon": "Manus' Catalyst"
     },
     {
-        "id": 26,
+        "id": "veintiseis",
         "name": "Sanctuary Guardian",
         "image": "https://example.com/sanctuary_guardian.jpg",
         "game": 1,
         "diff": 7,
         "health": 4400,
-        "description": "A fierce chimera guarding the Oolacile Sanctuary.",
-        "location": "Royal Wood",
-        "weapon": "Guardian Tail"
+        "description": "A fierce chimera protecting the Sanctuary of Oolacile.",
+        "location": "Royal Woods",
+        "weapon": "Guardian's Tail"
     },
     {
-        "id": 27,
+        "id": "veintisiete",
         "name": "The Last Giant",
         "image": "https://example.com/the_last_giant.jpg",
         "game": 2,
@@ -297,7 +297,7 @@
         "weapon": "Giant's Club"
     },
     {
-        "id": 28,
+        "id": "veintiocho",
         "name": "The Pursuer",
         "image": "https://example.com/the_pursuer.jpg",
         "game": 2,
@@ -308,7 +308,7 @@
         "weapon": "Pursuer's Ultra Greatsword"
     },
     {
-        "id": 29,
+        "id": "veintinueve",
         "name": "Executioner's Chariot",
         "image": "https://example.com/executioners_chariot.jpg",
         "game": 2,
@@ -319,7 +319,7 @@
         "weapon": "Executioner's Chariot Wheel"
     },
     {
-        "id": 30,
+        "id": "treinta",
         "name": "The Skeleton Lords",
         "image": "https://example.com/skeleton_lords.jpg",
         "game": 2,
@@ -330,7 +330,7 @@
         "weapon": "Soul Arrows"
     },
     {
-        "id": 31,
+        "id": "treintayuno",
         "name": "Flexile Sentry",
         "image": "https://example.com/flexile_sentry.jpg",
         "game": 2,
@@ -341,7 +341,7 @@
         "weapon": "Flexile Sentry's Greatsword"
     },
     {
-        "id": 32,
+        "id": "treintaydos",
         "name": "Lost Sinner",
         "image": "https://example.com/lost_sinner.jpg",
         "game": 2,
@@ -352,7 +352,7 @@
         "weapon": "Lost Sinner's Sword"
     },
     {
-        "id": 33,
+        "id": "treintaytres",
         "name": "Belfry Gargoyles",
         "image": "https://example.com/belfry_gargoyles.jpg",
         "game": 2,
@@ -363,7 +363,7 @@
         "weapon": "Gargoyle Tail Axe"
     },
     {
-        "id": 34,
+        "id": "treintaycuatro",
         "name": "Ruin Sentinel",
         "image": "https://example.com/ruin_sentinel.jpg",
         "game": 2,
@@ -374,7 +374,7 @@
         "weapon": "Ruin Sentinels' Greatswords"
     },
     {
-        "id": 35,
+        "id": "treintaycinco",
         "name": "Royal Rat Vanguard",
         "image": "https://example.com/royal_rat_vanguard.jpg",
         "game": 2,
@@ -385,7 +385,7 @@
         "weapon": "Rat Tail"
     },
     {
-        "id": 36,
+        "id": "treintayseis",
         "name": "Royal Rat Authority",
         "image": "https://example.com/royal_rat_authority.jpg",
         "game": 2,
@@ -396,7 +396,7 @@
         "weapon": "Rat King's Staff"
     },
     {
-        "id": 37,
+        "id": "treintaysiete",
         "name": "Scorpioness Najka",
         "image": "https://example.com/scorpioness_najka.jpg",
         "game": 2,
@@ -407,7 +407,7 @@
         "weapon": "Najka's Scorpion Tail"
     },
     {
-        "id": 38,
+        "id": "treintayocho",
         "name": "Mytha, the Baneful Queen",
         "image": "https://example.com/mytha.jpg",
         "game": 2,
@@ -418,7 +418,7 @@
         "weapon": "Mytha's Staff"
     },
     {
-        "id": 39,
+        "id": "treintaynueve",
         "name": "The Rotten",
         "image": "https://example.com/the_rotten.jpg",
         "game": 2,
@@ -429,7 +429,7 @@
         "weapon": "Rotten's Greatsword"
     },
     {
-        "id": 40,
+        "id": "cuarenta",
         "name": "Old Dragonslayer",
         "image": "https://example.com/old_dragonslayer.jpg",
         "game": 2,
@@ -440,7 +440,7 @@
         "weapon": "Dragonslayer Spear"
     },
     {
-        "id": 41,
+        "id": "cuarentayuno",
         "name": "Covetous Demon",
         "image": "https://example.com/covetous_demon.jpg",
         "game": 2,
@@ -451,7 +451,7 @@
         "weapon": "Covetous Demon Soul"
     },
     {
-        "id": 42,
+        "id": "cuarentaydos",
         "name": "Smelter Demon",
         "image": "https://example.com/smelter_demon.jpg",
         "game": 2,
@@ -462,7 +462,7 @@
         "weapon": "Smelter Demon Sword"
     },
     {
-        "id": 43,
+        "id": "cuarentaytres",
         "name": "Old Iron King",
         "image": "https://example.com/old_iron_king.jpg",
         "game": 2,
@@ -473,7 +473,7 @@
         "weapon": "Iron King's Greatsword"
     },
     {
-        "id": 44,
+        "id": "cuarentaycuatro",
         "name": "Guardian Dragon",
         "image": "https://example.com/guardian_dragon.jpg",
         "game": 2,
@@ -484,7 +484,7 @@
         "weapon": "Guardian Dragon's Breath"
     },
     {
-        "id": 45,
+        "id": "cuarentaycinco",
         "name": "Demon of Song",
         "image": "https://example.com/demon_of_song.jpg",
         "game": 2,
@@ -495,7 +495,7 @@
         "weapon": "Demon's Song"
     },
     {
-        "id": 46,
+        "id": "cuarentayseis",
         "name": "Velstadt, the Royal Aegis",
         "image": "https://example.com/velstadt.jpg",
         "game": 2,
@@ -506,7 +506,7 @@
         "weapon": "Velstadt's Greatsword"
     },
     {
-        "id": 47,
+        "id": "cuarentaysiete",
         "name": "Vendrick",
         "image": "https://example.com/vendrick.jpg",
         "game": 2,
@@ -517,7 +517,7 @@
         "weapon": "Vendrick's Sword"
     },
     {
-        "id": 48,
+        "id": "cuarentayocho",
         "name": "Darklurker",
         "image": "https://example.com/darklurker.jpg",
         "game": 2,
@@ -528,7 +528,7 @@
         "weapon": "Darklurker's Staff"
     },
     {
-        "id": 49,
+        "id": "cuarentaynueve",
         "name": "Dragonrider",
         "image": "https://example.com/dragonrider.jpg",
         "game": 2,
@@ -539,7 +539,7 @@
         "weapon": "Dragonrider Bow"
     },
     {
-        "id": 50,
+        "id": "cincuenta",
         "name": "Twin Dragonrider",
         "image": "https://example.com/twin_dragonrider.jpg",
         "game": 2,
@@ -550,7 +550,7 @@
         "weapon": "Twin Dragonrider Bows"
     },
     {
-        "id": 51,
+        "id": "cincuentayuno",
         "name": "Prowling Magus and Congregation",
         "image": "https://example.com/prowling_magus.jpg",
         "game": 2,
@@ -561,7 +561,7 @@
         "weapon": "Magus' Staff"
     },
     {
-        "id": 52,
+        "id": "cincuentydos",
         "name": "Giant Lord",
         "image": "https://example.com/giant_lord.jpg",
         "game": 2,
@@ -572,7 +572,7 @@
         "weapon": "Giant's Greatsword"
     },
     {
-        "id": 53,
+        "id": "cincuentaytres",
         "name": "Ancient Dragon",
         "image": "https://example.com/ancient_dragon.jpg",
         "game": 2,
@@ -583,18 +583,18 @@
         "weapon": "Ancient Dragon's Breath"
     },
     {
-        "id": 54,
+        "id": "cincuentaycuatro",
         "name": "Throne Watcher and Throne Defender",
-        "image": "https://example.com/throne_watchers.jpg",
+        "image": "https://example.com/throne_watcher.jpg",
         "game": 2,
-        "diff": 10,
-        "health": 8000,
-        "description": "The two protectors of the throne, standing in defense of the throne room.",
-        "location": "The Throne of Want",
-        "weapon": "Throne Watcher's Sword"
+        "diff": 8,
+        "health": 6000,
+        "description": "A duo protecting the throne of Drangleic.",
+        "location": "Throne of Want",
+        "weapon": "Throne Defender's Sword"
     },
     {
-        "id": 55,
+        "id": "cincuentaycinco",
         "name": "Nashandra",
         "image": "https://example.com/nashandra.jpg",
         "game": 2,
@@ -605,7 +605,7 @@
         "weapon": "Nashandra's Scythe"
     },
     {
-        "id": 56,
+        "id": "cincuentayseis",
         "name": "Aldia, Scholar of the First Sin",
         "image": "https://example.com/aldia.jpg",
         "game": 2,
@@ -616,7 +616,7 @@
         "weapon": "Aldia's Staff"
     },
     {
-        "id": 57,
+        "id": "cincuentaysiete",
         "name": "Elana, Squalid Queen",
         "image": "https://example.com/elana.jpg",
         "game": 2,
@@ -627,7 +627,7 @@
         "weapon": "Elana's Staff"
     },
     {
-        "id": 58,
+        "id": "cincuentayocho",
         "name": "Sinh, the Slumbering Dragon",
         "image": "https://example.com/sinh.jpg",
         "game": 2,
@@ -638,7 +638,7 @@
         "weapon": "Sinh's Flame"
     },
     {
-        "id": 59,
+        "id": "cincuentaynueve",
         "name": "Graverobber Varg, and Cerah",
         "image": "https://example.com/graverobber_varg.jpg",
         "game": 2,
@@ -649,7 +649,7 @@
         "weapon": "Grave Robbers' Scythe"
     },
     {
-        "id": 60,
+        "id": "sesenta",
         "name": "Smelter Demon",
         "image": "https://example.com/smelter_demon_2.jpg",
         "game": 2,
@@ -660,7 +660,7 @@
         "weapon": "Smelter Demon Sword"
     },
     {
-        "id": 61,
+        "id": "sesentayuno",
         "name": "Fume Knight",
         "image": "https://example.com/fume_knight.jpg",
         "game": 2,
@@ -671,7 +671,7 @@
         "weapon": "Fume Sword"
     },
     {
-        "id": 62,
+        "id": "sesentaydos",
         "name": "Sir Alonne",
         "image": "https://example.com/sir_alonne.jpg",
         "game": 2,
@@ -682,7 +682,7 @@
         "weapon": "Sir Alonne's Greatsword"
     },
     {
-        "id": 63,
+        "id": "sesentaytres",
         "name": "Iudex Gundyr",
         "image": "https://example.com/iudex_gundyr.jpg",
         "game": 3,
@@ -693,7 +693,7 @@
         "weapon": "Gundyr's Halberd"
     },
     {
-        "id": 64,
+        "id": "sesentaycuatro",
         "name": "Vordt of the Boreal Valley",
         "image": "https://example.com/vordt_of_the_boreal_valley.jpg",
         "game": 3,
@@ -704,7 +704,7 @@
         "weapon": "Vordt's Great Hammer"
     },
     {
-        "id": 65,
+        "id": "sesentaycinco",
         "name": "Curse-Rotted Greatwood",
         "image": "https://example.com/curse_rotted_greatwood.jpg",
         "game": 3,
@@ -715,7 +715,7 @@
         "weapon": "Greatwood's Roots"
     },
     {
-        "id": 66,
+        "id": "sesentayseis",
         "name": "Crystal Sage",
         "image": "https://example.com/crystal_sage.jpg",
         "game": 3,
@@ -726,7 +726,7 @@
         "weapon": "Crystal Staff"
     },
     {
-        "id": 67,
+        "id": "sesentaysiete",
         "name": "Abyss Watchers",
         "image": "https://example.com/abyss_watchers.jpg",
         "game": 3,
@@ -737,7 +737,7 @@
         "weapon": "Abyss Watchers' Greatsword"
     },
     {
-        "id": 68,
+        "id": "sesentayocho",
         "name": "Deacons of the Deep",
         "image": "https://example.com/deacons_of_the_deep.jpg",
         "game": 3,
@@ -748,7 +748,7 @@
         "weapon": "Deep Soul"
     },
     {
-        "id": 69,
+        "id": "sesentaynueve",
         "name": "High Lord Wolnir",
         "image": "https://example.com/high_lord_wolnir.jpg",
         "game": 3,
@@ -759,7 +759,7 @@
         "weapon": "Wolnir's Crown"
     },
     {
-        "id": 70,
+        "id": "setenta",
         "name": "Old Demon King",
         "image": "https://example.com/old_demon_king.jpg",
         "game": 3,
@@ -770,7 +770,7 @@
         "weapon": "Demon King’s Greatsword"
     },
     {
-        "id": 71,
+        "id": "setentayuno",
         "name": "Pontiff Sulyvahn",
         "image": "https://example.com/pontiff_sulyvahn.jpg",
         "game": 3,
@@ -781,7 +781,7 @@
         "weapon": "Sulyvahn's Greatsword"
     },
     {
-        "id": 72,
+        "id": "setentaydos",
         "name": "Yhorm the Giant",
         "image": "https://example.com/yhorm_the_giant.jpg",
         "game": 3,
@@ -792,7 +792,7 @@
         "weapon": "Yhorm's Great Machete"
     },
     {
-        "id": 73,
+        "id": "setentaytres",
         "name": "Aldrich, Devourer of Gods",
         "image": "https://example.com/aldrich.jpg",
         "game": 3,
@@ -803,7 +803,7 @@
         "weapon": "Aldrich's Soul"
     },
     {
-        "id": 74,
+        "id": "setentaycuatro",
         "name": "Dancer of the Boreal Valley",
         "image": "https://example.com/dancer_of_the_boreal_valley.jpg",
         "game": 3,
@@ -814,7 +814,7 @@
         "weapon": "Dancer's Enchanted Swords"
     },
     {
-        "id": 75,
+        "id": "setentaycinco",
         "name": "Dragonslayer Armour",
         "image": "https://example.com/dragonslayer_armour.jpg",
         "game": 3,
@@ -825,7 +825,7 @@
         "weapon": "Dragonslayer Armour's Hammer"
     },
     {
-        "id": 76,
+        "id": "setentayseis",
         "name": "Oceiros, the Consumed King",
         "image": "https://example.com/oceiros.jpg",
         "game": 3,
@@ -836,7 +836,7 @@
         "weapon": "Oceiros' Staff"
     },
     {
-        "id": 77,
+        "id": "setentaysiete",
         "name": "Champion Gundyr",
         "image": "https://example.com/champion_gundyr.jpg",
         "game": 3,
@@ -847,7 +847,7 @@
         "weapon": "Champion Gundyr's Halberd"
     },
     {
-        "id": 78,
+        "id": "setentayocho",
         "name": "Lothric, Younger Prince",
         "image": "https://example.com/lothric_younger_prince.jpg",
         "game": 3,
@@ -858,7 +858,7 @@
         "weapon": "Lothric's Greatsword"
     },
     {
-        "id": 79,
+        "id": "setentaynueve",
         "name": "Ancient Wyvern",
         "image": "https://example.com/ancient_wyvern.jpg",
         "game": 3,
@@ -869,7 +869,7 @@
         "weapon": "Ancient Wyvern's Flame"
     },
     {
-        "id": 80,
+        "id": "ochenta",
         "name": "Nameless King",
         "image": "https://example.com/nameless_king.jpg",
         "game": 3,
@@ -880,7 +880,7 @@
         "weapon": "Storm Ruler"
     },
     {
-        "id": 81,
+        "id": "ochentayuno",
         "name": "Soul of Cinder",
         "image": "https://example.com/soul_of_cinder.jpg",
         "game": 3,
