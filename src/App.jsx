@@ -19,6 +19,7 @@ function App() { // Asegurarme luego de que las tengo bien linkeadas las Routes.
         <Route path="/boss/:id" element={<BossDetail />} />
         <Route path="/edit-form" element={<EditForm />} />
         <Route path="*" element={<PageNotFound />} />
+        <Route path="/comments" element={<Comments />} />
       </Routes>
 
     </div>
