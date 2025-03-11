@@ -6,6 +6,7 @@ import Bosses from './pages/Bosses';
 import BossDetail from './pages/BossDetail';
 import EditForm from './pages/EditForm';
 import PageNotFound from './pages/PageNotFound';
+import Comments from './pages/Comments';
 
 function App() { // Asegurarme luego de que las tengo bien linkeadas las Routes.
 
@@ -16,7 +17,7 @@ function App() { // Asegurarme luego de que las tengo bien linkeadas las Routes.
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/bosses" element={<Bosses />} />
-        <Route path="/boss/:id" element={<BossDetail />} />
+        <Route path="/bosses/:id" element={<BossDetail />} />
         <Route path="/edit-form" element={<EditForm />} />
         <Route path="*" element={<PageNotFound />} />
         <Route path="/comments" element={<Comments />} />
