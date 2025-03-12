@@ -38,13 +38,13 @@ function Comments() {
             </button>
             <h1>Listado de todos los comentarios filtrados por jefe</h1>
 
-            {comments.map((eachComment) => {
+            {comments.map((eachComment) => { // recorro el array con el map y creo un nuevo array con todos los comentarios.
 
                 return (
 
                     <div key={eachComment.id}>
 
-                        <h2>{`Jefe ID: ${eachComment.bossId}`}</h2>
+                        <h3>{`Jefe ID: ${eachComment.bossId}`}</h3>
                         <p>{eachComment.user}:{eachComment.comment}</p>
                         <p>Rating: {eachComment.rating} - Fecha: {eachComment.date}</p>
 
