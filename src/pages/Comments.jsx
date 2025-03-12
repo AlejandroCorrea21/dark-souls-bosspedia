@@ -46,8 +46,8 @@ function Comments() {
 
                     <div key={eachComment.id}>
 
-                        <h3>{`Jefe ID: ${eachComment.boss.name}`}</h3>
-                        <h4>{eachComment.user}:{eachComment.comment}</h4>
+                        <h3>{`Jefe: ${eachComment.boss.name}`}</h3>
+                        <h4> {eachComment.user}: {eachComment.comment}</h4>
                         <p>Rating: {eachComment.rating} - Fecha: {eachComment.date}</p>
 
                     </div>
