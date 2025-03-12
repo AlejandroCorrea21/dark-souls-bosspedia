@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import axios from 'axios';
 
@@ -29,10 +28,15 @@ function Comments() {
     };
 
     return (
-        <div>
 
+        <div>
+            <button
+                style={{ position: 'absolute', top: '20px', left: '20px', fontSize: '18px', padding: '10px 20px', backgroundColor: '#f2a90d' }}
+                onClick={volverAHome}
+            >
+                Atrás
+            </button>
             <h1>Listado de todos los comentarios filtrados por jefe</h1>
-            <p>Cargando..</p>
 
             {comments.map((eachComment) => {
 

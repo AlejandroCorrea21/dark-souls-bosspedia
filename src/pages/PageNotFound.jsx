@@ -10,8 +10,8 @@ function PageNotFound() {
 
     return (
         <div style={{ textAlign: 'center', paddingTop: '100px' }}>
-            <h1>404 - Página no encontrada</h1>
-            <p>Lo sentimos, la página que buscas no existe.</p>
+            <h1>Error 404 - Página no encontrada</h1>
+            <p>Vuelve atrás.</p>
 
             <button
                 style={{
