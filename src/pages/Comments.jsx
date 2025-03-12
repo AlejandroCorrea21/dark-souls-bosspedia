@@ -1,6 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
+import { useEffect } from 'react';
 import axios from 'axios';
 
 function Comments() {
@@ -9,7 +10,9 @@ function Comments() {
     const navigate = useNavigate(); // uso navigate para volver atrás.
 
     useEffect(() => {
-        axios.get(`${import.meta.env.VITE_SERVER_URL}/comments`)
+
+        axios.get(`${import.meta.env.VITE_SERVER_URL}/comments?_expand=boss`)
+
             .then((response) => {
                 // console.log(response.data)
                 setComments(response.data)
@@ -26,7 +29,7 @@ function Comments() {
     const volverAHome = () => {
         navigate('/'); // va atrás al pulsar con el botón. (página / home).
     };
-
+    // console.log(comments)
     return (
 
         <div>
@@ -38,14 +41,14 @@ function Comments() {
             </button>
             <h1>Listado de todos los comentarios filtrados por jefe</h1>
 
-            {comments.map((eachComment) => { // recorro el array con el map y creo un nuevo array con todos los comentarios.
-
+            {comments.map((eachComment) => { // recorro el array con el map y lo guardo en eachcomment.
+                // console.log(eachComment.boss.name)
                 return (
 
                     <div key={eachComment.id}>
 
-                        <h3>{`Jefe ID: ${eachComment.bossId}`}</h3>
-                        <p>{eachComment.user}:{eachComment.comment}</p>
+                        <h3>{`Jefe ID: ${eachComment.bossid}`}</h3>
+                        <h4>{eachComment.user}:{eachComment.comment}</h4>
                         <p>Rating: {eachComment.rating} - Fecha: {eachComment.date}</p>
 
                     </div>
