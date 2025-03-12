@@ -12,7 +12,6 @@ function Comments() {
     useEffect(() => {
 
         axios.get(`${import.meta.env.VITE_SERVER_URL}/comments?_expand=boss`)
-
             .then((response) => {
                 // console.log(response.data)
                 setComments(response.data)
@@ -47,7 +46,7 @@ function Comments() {
 
                     <div key={eachComment.id}>
 
-                        <h3>{`Jefe ID: ${eachComment.bossid}`}</h3>
+                        <h3>{`Jefe ID: ${eachComment.boss.name}`}</h3>
                         <h4>{eachComment.user}:{eachComment.comment}</h4>
                         <p>Rating: {eachComment.rating} - Fecha: {eachComment.date}</p>
 
