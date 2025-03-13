@@ -1,52 +1,79 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import axios from "axios";
 
 function Bosses() {
     const navigate = useNavigate();
     const [bosses, setBosses] = useState([]);
 
     useEffect(() => {
-        axios.get(`${import.meta.env.VITE_SERVER_URL}/bosses`)
+        axios
+            .get(`${import.meta.env.VITE_SERVER_URL}/bosses`) // Imprto la data del server
             .then((response) => {
                 // console.log(response.data)
                 setBosses(response.data);
             })
             .catch((error) => {
-                console.log(error)
+                console.log(error);
             });
     }, []);
 
     const volverAtras = () => {
-        navigate('/'); // Va atrás al pulsar con el botón (página / home).
+        navigate("/"); // Va atrás al pulsar con el botón (página / home).
     };
 
     return (
-        <div style={{
-            padding: '50px', textAlign: 'center', fontSize: '20px', fontWeight: 'bold'
-        }}>
+        <div
+            style={{
+                padding: "50px",
+                textAlign: "center",
+                fontSize: "20px",
+                fontWeight: "bold",
+            }}
+        >
+            <button
+                style={{
+                    fontSize: "18px",
+                    padding: "10px 20px",
+                    marginTop: "20px",
+                    backgroundColor: "#c30d0d",
+                }}
+            >
+                Buscar jefe
+            </button>
             <h1>Listado de todos los jefes</h1>
             <p>Aquí tienes toda la información de todos los jefes de Dark Souls</p>
 
             <button
-                style={{ position: 'absolute', top: '20px', left: '20px', fontSize: '18px', padding: '10px 20px', backgroundColor: '#f2a90d' }}
+                style={{
+                    position: "absolute",
+                    top: "20px",
+                    left: "20px",
+                    fontSize: "18px",
+                    padding: "10px 20px",
+                    backgroundColor: "#f2a90d",
+                }}
                 onClick={volverAtras}
             >
                 Atrás
             </button>
 
-            <div style={{ marginTop: '30px' }}>
+            <div style={{ marginTop: "30px" }}>
                 {bosses.map((boss) => (
-                    <div key={boss.id} style={{ padding: '15px', margin: '10px auto', width: '50%' }}>
+                    <div
+                        key={boss.id}
+                        style={{ padding: "15px", margin: "10px auto", width: "50%" }}
+                    >
                         <h2>Nombre: {boss.name}</h2>
                         <p>Juego: {boss.game}</p>
                         <p>Descripción: {boss.description}</p>
                         <p>Localización: {boss.location}</p>
+                        <Link to={`/bosses/${boss.id}`}>
+                            <button style={{ backgroundColor: "#2188a1" }}>Detalles</button>
+                        </Link>
                     </div>
                 ))}
-                <button style={{ fontSize: '18px', padding: '10px 20px', marginTop: '20px', backgroundColor: '#c30d0d' }}>
-                    Buscar jefe
-                </button>
             </div>
         </div>
     );
