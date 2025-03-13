@@ -21,7 +21,7 @@ function BossDetail() {
 
     return (
         <div style={{ textAlign: "center", margin: "20px" }}>
-            <h1>{foundBoss.name}</h1>
+            <h2>{foundBoss.name}</h2>
             <p>{foundBoss.description}</p>
 
             <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
@@ -40,18 +40,16 @@ function BossDetail() {
             </div>
 
             <h3>Comments:</h3>
-            {foundBoss.comments && foundBoss.comments.length > 0 ? (
-                foundBoss.comments.map((comment, index) => (
-                    <div key={index}>
-                        <p>Rating: {comment.rating || "No rating available"}</p>
-                        <p>Comment: {comment.comment || "No comment available"}</p>
-                        <p>Date: {new Date(comment.date).toLocaleDateString() || "No date available"}</p>
-                        <p>User: {comment.user || "No nickname available"}</p>
-                    </div>
-                ))
-            ) : (
-                <p>No hay comentarios aún de este jefe.</p>
-            )}
+
+            {foundBoss.comments.map((comment, index) => (
+                <div key={index}>
+                    <p>Rating: {comment.rating || "No rating available"}</p>
+                    <p>Comment: {comment.comment || "No comment available"}</p>
+                    <p>Date: {new Date(comment.date).toLocaleDateString() || "No date available"}</p>
+                    <p>User: {comment.user || "No nickname available"}</p>
+                </div>
+            ))}
+
         </div>
     );
 }

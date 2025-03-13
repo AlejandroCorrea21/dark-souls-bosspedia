@@ -1,20 +1,30 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import axios from 'axios';
 
 function Bosses() {
-    const navigate = useNavigate(); // uso navigate para volver atrás.
+    const navigate = useNavigate();
+    const [bosses, setBosses] = useState([]);
+
+    useEffect(() => {
+        axios.get(`${import.meta.env.VITE_SERVER_URL}/bosses`)
+            .then((response) => {
+                // console.log(response.data)
+                setBosses(response.data);
+            })
+            .catch((error) => {
+                console.log(error)
+            });
+    }, []);
 
     const volverAtras = () => {
-        navigate('/'); // va atrás al pulsar con el botón. (página / home).
-
+        navigate('/'); // Va atrás al pulsar con el botón (página / home).
     };
 
     return (
         <div style={{
-            padding: '200px', textAlign: 'center', fontSize: '20px', fontWeight: 'bold'
+            padding: '50px', textAlign: 'center', fontSize: '20px', fontWeight: 'bold'
         }}>
-
             <h1>Listado de todos los jefes</h1>
             <p>Aquí tienes toda la información de todos los jefes de Dark Souls</p>
 
@@ -24,7 +34,20 @@ function Bosses() {
             >
                 Atrás
             </button>
-            <button style={{ fontSize: '18px', padding: '10px 20px', marginTop: '20px', textAlign: 'center', backgroundColor: '#c30d0d ' }}>Buscar jefe</button>
+
+            <div style={{ marginTop: '30px' }}>
+                {bosses.map((boss) => (
+                    <div key={boss.id} style={{ padding: '15px', margin: '10px auto', width: '50%' }}>
+                        <h2>Nombre: {boss.name}</h2>
+                        <p>Juego: {boss.game}</p>
+                        <p>Descripción: {boss.description}</p>
+                        <p>Localización: {boss.location}</p>
+                    </div>
+                ))}
+                <button style={{ fontSize: '18px', padding: '10px 20px', marginTop: '20px', backgroundColor: '#c30d0d' }}>
+                    Buscar jefe
+                </button>
+            </div>
         </div>
     );
 }
