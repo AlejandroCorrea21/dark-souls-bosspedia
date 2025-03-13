@@ -26,10 +26,6 @@ function Bosses() {
     return (
         <div style={{ padding: "50px", textAlign: "center", fontSize: "20px", fontWeight: "bold", }}>
 
-            <button style={{ fontSize: "18px", padding: "10px 20px", marginTop: "20px", backgroundColor: "#c30d0d", }}
-            >Buscar jefe
-            </button>
-
             <h1>Listado de todos los jefes</h1>
             <p>Aquí tienes toda la información de todos los jefes de Dark Souls</p>
 
@@ -59,3 +55,5 @@ function Bosses() {
 }
 
 export default Bosses;
+
+//{`/comments/${boss.id}`}>

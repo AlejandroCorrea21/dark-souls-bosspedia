@@ -40,7 +40,7 @@ function BossCommentForm({ bossId, setComments }) {
                 setComment('');
                 setRating(1);
                 setUser('');
-                setComments((prevComments) => [newComment, ...prevComments]);
+                setComments((commentsAntiguos) => [newComment, ...commentsAntiguos]);
             })
             .catch((error) => {
                 console.log(error);
