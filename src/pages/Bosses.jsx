@@ -9,9 +9,8 @@ function Bosses() {
 
     useEffect(() => {
         axios
-            .get(`${import.meta.env.VITE_SERVER_URL}/bosses`) // Imprto la data del server
+            .get(`${import.meta.env.VITE_SERVER_URL}/bosses`)
             .then((response) => {
-                // console.log(response.data)
                 setBosses(response.data);
             })
             .catch((error) => {
@@ -65,12 +64,10 @@ function Bosses() {
                         key={boss.id}
                         style={{ padding: "15px", margin: "10px auto", width: "50%" }}
                     >
-                        <h2>Nombre: {boss.name}</h2>
-                        <p>Juego: {boss.game}</p>
-                        <p>Descripción: {boss.description}</p>
-                        <p>Localización: {boss.location}</p>
-                        <Link to={`/bosses/${boss.id}`}>
-                            <button style={{ backgroundColor: "#2188a1" }}>Detalles</button>
+                        <h2>{boss.name}</h2>
+                        <h3>{boss.game}</h3>
+                        <Link to={`/boss/${boss.id}`}>
+                            <button>Detalles</button>
                         </Link>
                     </div>
                 ))}

@@ -1,54 +1,56 @@
-import { useParams } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { useParams, useNavigate } from "react-router-dom";
+import axios from "axios";
 
 function BossDetail() {
+    const { id } = useParams();
+    const navigate = useNavigate();
+    const [boss, setBoss] = useState([]);
 
-    const parametrosDinamicos = useParams();
-    //console.log(parametrosDinamicos.recipeId);
+    useEffect(() => {
+        // console.log(response.data)
+        axios
+            .get(`${import.meta.env.VITE_SERVER_URL}/bosses/${id}`)
+            .then((response) => {
+                setBoss(response.data);
+            })
+            .catch((error) => {
+                console.log(error);
+            });
+    }, []);
 
-    const foundBoss = props.bosses.find((boss) => { // El find busca en props.bosses que la ID del jefe coinsidica con la que consigue en la URL a travez de paramétros dinamicos. Si la encuentra la muestra, si no devuelve undefined.
+    const volverAtras = () => {
 
-        if (boss.id === parametrosDinamicos.id) {
-            return true;
-        } else {
-            return false;
-        }
-    });
-
-    if (foundBoss === null) { // cláusula de guardia
-        return <p>No se encontró al jefe..</p>;
-    }
+        navigate("/bosses"); // Va atrás al pulsar con el botón (página / home).
+    };
 
     return (
-        <div style={{ textAlign: "center", margin: "20px" }}>
-            <h2>{foundBoss.name}</h2>
-            <p>{foundBoss.description}</p>
+        <div
+            style={{
+                padding: "50px",
+                textAlign: "center",
+                fontSize: "20px",
+                fontWeight: "bold",
+            }}
+        >
+            <h1>{boss.name}</h1>
+            <p>Juego: {boss.game}</p>
+            <p>Descripción: {boss.description}</p>
+            <p>Localización: {boss.location}</p>
 
-            <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
-                <div style={{ flex: 1, textAlign: "left" }}>
-                    <p>Health: {foundBoss.health}</p>
-                    <p>Attack: {foundBoss.attack}</p>
-                    <p>Defense: {foundBoss.defense}</p>
-                    <p>Weakness: {foundBoss.weakness}</p>
-                </div>
-                <div style={{ textAlign: "center" }}>
-                    <img
-                        alt={foundBoss.name}
-                        style={{ width: "250px", height: "250px", borderRadius: "10px" }}
-                    />
-                </div>
-            </div>
-
-            <h3>Comments:</h3>
-
-            {foundBoss.comments.map((comment, index) => (
-                <div key={index}>
-                    <p>Rating: {comment.rating || "No rating available"}</p>
-                    <p>Comment: {comment.comment || "No comment available"}</p>
-                    <p>Date: {new Date(comment.date).toLocaleDateString() || "No date available"}</p>
-                    <p>User: {comment.user || "No nickname available"}</p>
-                </div>
-            ))}
-
+            <button
+                style={{
+                    position: "absolute",
+                    top: "20px",
+                    left: "20px",
+                    fontSize: "18px",
+                    padding: "10px 20px",
+                    backgroundColor: "#f2a90d",
+                }}
+                onClick={volverAtras}
+            >
+                Atrás
+            </button>
         </div>
     );
 }

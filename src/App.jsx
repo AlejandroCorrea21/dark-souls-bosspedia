@@ -17,7 +17,7 @@ function App() { // Asegurarme luego de que las tengo bien linkeadas las Routes.
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/bosses" element={<Bosses />} />
-        <Route path="/bosses/:id" element={<BossDetail />} />
+        <Route path="/boss/:id" element={<BossDetail />} />
         <Route path="/edit-form" element={<EditForm />} />
         <Route path="*" element={<PageNotFound />} />
         <Route path="/comments" element={<Comments />} />
