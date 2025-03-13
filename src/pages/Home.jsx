@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <div style={{
-            padding: '200px', textAlign: 'center', fontSize: '20px', fontWeight: 'bold'
+            padding: '10px', textAlign: 'center', fontSize: '20px', fontWeight: 'bold'
         }}>
             <h1>Dark Souls Bosspedia</h1>
             <p>Bienvenido a la enciclopedia de los jefes de Dark Souls. Aprende de todos los jefes de la saga Dark Souls y comparte tu experiencia! :) .</p>
