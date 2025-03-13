@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 // Crear comentario
 
 function BossCommentForm(props) {
-    const navigate = useNavigate();
 
     const [comment, setComment] = useState('');
     const [rating, setRating] = useState(1);
@@ -28,48 +27,43 @@ function BossCommentForm(props) {
             bossId: props.bossId,
             date: new Date(comment.date).toLocaleDateString(), // <- preguntar a jorge por la fecha y por la ID
         };
-        console.log(newComment)
+        // console.log(newComment)
 
-        //2. necesitamos actualizarlo en el estado
-        const clone = [...props.comments];
-        clone.unshift(newComment);
-        props.setComments(clone);
+        axios
+            .post(`${import.meta.env.VITE_SERVER_URL}/comments`, {
+                comment: comment,
+                user: user,
+                rating: rating
+            })
+            .then((response) => {
 
-        //3. reiniciamos los campos
-        setComment('');
-        setRating(1);
+                setComment('')
+                setRating(1);
+            })
+            .catch((error) => {
+                console.log(error)
+            })
+    };
 
-        navigate(`/boss/${props.bossId}`); // Ruta al ID del Boss.
-
-    }
 
     return (
         <div>
             <h3>Agregar Comentario</h3>
             <form onSubmit={handleSubmit}>
+
                 <div>
                     <h4>Comentario:</h4>
-                    <textarea
-                        value={comment}
-                        onChange={handleCommentChange}
-                        required
-                    />
+                    <input value={comment} onChange={handleCommentChange} required />
                 </div>
+
                 <div>
                     <h4>Rating:</h4>
-                    <input
-                        type="number"
-                        value={rating}
-                        min="1"
-                        max="5"
-                        onChange={handleRatingChange}
-                        required
-                    />
+                    <input type="number" value={rating} min="1" max="5" onChange={handleRatingChange} required />
                 </div>
+
                 <button type="submit">Agregar Comentario</button>
             </form>
         </div>
     );
 }
-
 export default BossCommentForm;
