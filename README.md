@@ -1,12 +1,65 @@
-# React + Vite
+# Dark Souls BossPedia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## [Link!](https://github.com/AlejandroCorrea21/dark-souls-bosspedia.git)
 
-Currently, two official plugins are available:
+![Jorge](./assets/jorge.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Descripción de la app
 
-## Expanding the ESLint configuration
+DarkSouls BossPedia es un app informativa e interactiva, donde la finalidad de esta consiste en informar al usuario de los diferentes jefes que tiene los 3 juegos de Dark Souls y que estos puedan compartir sus experiencias si lo desean con los jefes.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Funcionalidades
+
+El usuario podrá ver todos los comentarios que se han hecho a todos los jefes en una página.
+El usuario podrá ver los detalles y localización de cada jefe.
+El usuario podrá ver a que juego pertenece cada jefe.
+El usuario podrá crear un comentario contando su experiencia al jefe en cuestión que desee.
+El usuario podrá borrar si desea también el comentario.
+Se podrá ver la página en dispositivos móviles.
+
+# Funcionalidades Pendientes
+Que se pueda editar el comentario que se a hecho.
+Que se pueda ver la fecha del comentario en que se a hecho.
+Que se pueda tener una barra de búsqueda donde filtre los jefes por nombre o por que juego pertenecen.
+Que se pueda ver las imágenes de los jefes.
+
+
+# Tecnologías Utilizadas
+
+HTML5
+CSS3
+JavaScript
+React
+React DOM
+JSON Server
+
+# Estructura del Proyecto
+
+# Páginas
+
+- **Home**
+- **Comments**
+- **Bosses**
+- **BossDetail**
+- **About**
+- **PageNotFound**
+
+# Componentes
+
+- **Navbar**
+- **BossCommentForm**
+- **EditForm** (falta editar)
+
+# Extra Links
+
+### Excalidraw
+[Link](https://excalidraw.com/#json=EcEtPPmcRkfdwosh8KufH,EyWv-fYgPPF9cAPYlYk3Hg)
+
+## Deploy
+[Link](https://dark-souls-bosspedia-server.onrender.com/)
+
+# Creditos
+
+- **Un especial gracias a:** Juan, Kurt y Samuel por el aguante y los ánimos que me han dado en esta semana.
+- ** Otro especial gracias a:** Jorge, quien tuvo mucha pasciencia con servidor y me dió ánimos también para poder continuar.
