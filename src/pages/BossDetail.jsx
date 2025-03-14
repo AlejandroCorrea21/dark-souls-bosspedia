@@ -29,7 +29,8 @@ function BossDetail() {
             });
     }, [id]);
 
-    const handleDelete = (commentId) => { // borrar
+    const handleDelete = (commentId) => {
+        // borrar
         axios
             .delete(`${import.meta.env.VITE_SERVER_URL}/comments/${commentId}`)
             .then(() => {
@@ -47,7 +48,14 @@ function BossDetail() {
     };
 
     return (
-        <div style={{ padding: "50px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>
+        <div
+            style={{
+                padding: "50px",
+                textAlign: "center",
+                fontSize: "20px",
+                fontWeight: "bold",
+            }}
+        >
             <h1>{boss.name}</h1>
             <p>Juego: {boss.game}</p>
             <p>Descripción: {boss.description}</p>
@@ -70,19 +78,34 @@ function BossDetail() {
             <div style={{ marginTop: "30px" }}>
                 <h3>Comentarios</h3>
                 {comments.length === 0 ? (
-                    <p>No hay comentarios disponibles.</p>) : (
-
+                    <p>No hay comentarios disponibles.</p>
+                ) : (
                     comments.map((comment) => (
-
-                        <div key={comment.id} style={{ marginBottom: "20px", padding: "10px", border: "1px solid #ccc" }}>
+                        <div
+                            key={comment.id}
+                            style={{
+                                marginBottom: "20px",
+                                padding: "10px",
+                                border: "1px solid #ccc",
+                            }}
+                        >
                             <p>Usuario: {comment.user}</p>
                             <p>Comentario: {comment.comment}</p>
                             <p>Rating: {comment.rating}</p>
                             <p>Fecha: {new Date(comment.date).toLocaleDateString()}</p>
 
-                            <button onClick={() => handleDelete(comment.id)} style={{ backgroundColor: "#b90707", color: "white", padding: "5px 10px", border: "none", cursor: "pointer", }}
-                            >Eliminar</button>
-
+                            <button
+                                onClick={() => handleDelete(comment.id)}
+                                style={{
+                                    backgroundColor: "#b90707",
+                                    color: "white",
+                                    padding: "5px 10px",
+                                    border: "none",
+                                    cursor: "pointer",
+                                }}
+                            >
+                                Eliminar
+                            </button>
                         </div>
                     ))
                 )}

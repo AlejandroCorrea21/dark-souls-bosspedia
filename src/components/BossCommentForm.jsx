@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 
 // Crear comentario
@@ -67,7 +67,7 @@ function BossCommentForm({ bossId, setComments }) {
                     <input type="number" value={rating} min="1" max="10" onChange={handleRatingChange} required />
                 </div>
 
-                <button type="submit">Agregar Comentario</button>
+                <button style={{ backgroundColor: '#7aae3d' }} type="submit">Agregar Comentario</button>
             </form>
         </div>
     );
