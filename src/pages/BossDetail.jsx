@@ -23,11 +23,12 @@ function BossDetail() {
             .get(`${import.meta.env.VITE_SERVER_URL}/comments?bossId=${id}`)
             .then((response) => {
                 setComments(response.data);
+                console.log(setComments)
             })
             .catch((error) => {
                 console.log(error);
             });
-    }, [comments]);
+    }, []);
 
     const handleDelete = (commentId) => {
         // borrar
