@@ -57,7 +57,7 @@ JSON Server
 [Link](https://excalidraw.com/#json=EcEtPPmcRkfdwosh8KufH,EyWv-fYgPPF9cAPYlYk3Hg)
 
 ## Deploy
-[Link](https://dark-souls-bosspedia-server.onrender.com/)
+[Link](https://darksoulsbosspedia.netlify.app/)
 
 # Creditos
 
