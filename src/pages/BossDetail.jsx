@@ -27,7 +27,7 @@ function BossDetail() {
             .catch((error) => {
                 console.log(error);
             });
-    }, [id]);
+    }, [comments]);
 
     const handleDelete = (commentId) => {
         // borrar
