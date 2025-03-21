@@ -9,7 +9,7 @@ import Comments from './pages/Comments';
 import EditCommentForm from './components/EditCommentForm';
 
 
-function App() { // Asegurarme luego de que las tengo bien linkeadas las Routes.
+function App() {
 
   return (
     <div className="App">

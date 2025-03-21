@@ -13,7 +13,7 @@ function Comments() {
 
         axios.get(`${import.meta.env.VITE_SERVER_URL}/comments?_expand=boss`)
             .then((response) => {
-                // console.log(response.data)
+
                 setComments(response.data)
             })
             .catch((error) => {
@@ -41,7 +41,7 @@ function Comments() {
             <h1>Listado de todos los comentarios filtrados por jefe</h1>
 
             {comments.map((eachComment) => { // recorro el array con el map y lo guardo en eachcomment.
-                // console.log(eachComment.boss.name)
+
                 return (
 
                     <div key={eachComment.id}>
