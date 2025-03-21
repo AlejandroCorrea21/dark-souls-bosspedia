@@ -6,6 +6,8 @@ import Bosses from './pages/Bosses';
 import BossDetail from './pages/BossDetail';
 import PageNotFound from './pages/PageNotFound';
 import Comments from './pages/Comments';
+import EditCommentForm from './components/EditCommentForm';
+
 
 function App() { // Asegurarme luego de que las tengo bien linkeadas las Routes.
 
@@ -19,6 +21,7 @@ function App() { // Asegurarme luego de que las tengo bien linkeadas las Routes.
         <Route path="/boss/:id" element={<BossDetail />} />
         <Route path="*" element={<PageNotFound />} />
         <Route path="/comments" element={<Comments />} />
+        <Route path="/comments/edit/:commentId" element={<EditCommentForm />} />
       </Routes>
 
     </div>

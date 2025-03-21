@@ -22,17 +22,16 @@ function BossCommentForm({ bossId, setComments }) {
 
     // Botón de enviar
     function handleSubmit(event) {
-        event.preventDefault(); // Eliminamos el comportamiento predeterminado de el formulario
+        event.preventDefault();
 
-        //1. Necesitamos recopilar la data a crear
+        // Recopilar la data a crear
         const newComment = {
             comment: comment,
             user: user,
             rating: rating,
             bossId: bossId,
-            date: new Date(comment.date).toLocaleDateString(), // <- preguntar a jorge por la fecha y por la ID
+            date: new Date(comment.date).toLocaleDateString(),
         };
-        // console.log(newComment)
 
         axios
             .post(`${import.meta.env.VITE_SERVER_URL}/comments`, newComment)

@@ -36,10 +36,8 @@ function Bosses() {
             <div style={{ marginTop: "30px" }}>
 
                 {bosses.map((boss) => (
-                    <div
-                        key={boss.id}
-                        style={{ padding: "15px", margin: "10px auto", width: "50%" }}
-                    >
+                    <div key={boss.id} style={{ padding: "15px", margin: "10px auto", width: "50%" }}>
+
                         <h2>{boss.name}</h2>
                         <h3>{boss.game}</h3>
 
