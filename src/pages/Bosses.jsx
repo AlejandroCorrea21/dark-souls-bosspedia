@@ -12,7 +12,6 @@ function Bosses() {
             .get(`${import.meta.env.VITE_SERVER_URL}/bosses`)
             .then((response) => {
                 setBosses(response.data);
-                console.log(response.data)
             })
             .catch((error) => {
                 console.log(error);

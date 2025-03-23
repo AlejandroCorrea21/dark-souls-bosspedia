@@ -1,9 +1,14 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { useParams, useNavigate } from "react-router-dom";
 
-function EditCommentForm({ commentId, setComments }) {
+function EditCommentForm() {
     const [comment, setComment] = useState("");
     const [rating, setRating] = useState("");
+    const [bossId, setBossId] = useState("");
+    const [user, setUser] = useState("");
+    const { commentId } = useParams();
+    const navigate = useNavigate();
 
     useEffect(() => {
         axios
@@ -11,6 +16,8 @@ function EditCommentForm({ commentId, setComments }) {
             .then((response) => {
                 setComment(response.data.comment);
                 setRating(response.data.rating);
+                setBossId(response.data.bossId);
+                setUser(response.data.user);
             })
             .catch((error) => {
                 console.log(error);
@@ -24,20 +31,15 @@ function EditCommentForm({ commentId, setComments }) {
             .put(`${import.meta.env.VITE_SERVER_URL}/comments/${commentId}`, {
                 comment,
                 rating,
+                bossId,
+                user,
             })
-            .then(() => {
+            .then((response) => {
+                navigate(`/boss/${response.data.bossId}`);
                 // Se actualiza el comentario y el estado
-                axios
-                    .get(`${import.meta.env.VITE_SERVER_URL}/comments`)
-                    .then((response) => {
-                        setComments(response.data);
-                    })
-                    .catch((error) => {
-                        console.log(error);
-                    });
             })
             .catch((error) => {
-                console.log("Está dando error el get al actualizar", error);
+                console.log(error);
             });
     };
 
