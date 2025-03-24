@@ -21,14 +21,14 @@ function Comments() {
             })
 
     }, [])
-
-    if (comments === null) { // cláusula de guardia
-        return <h3>... buscando comentarios</h3>;
+    console.log(comments)
+    if ((comments === null) || (comments.length === 0)) { // cláusula de guardia y puesto spinner.
+        return <div className="spinner"></div>
     }
     const volverAHome = () => {
         navigate('/'); // va atrás al pulsar con el botón. (página / home).
     };
-    // console.log(comments)
+
     return (
 
         <div>
