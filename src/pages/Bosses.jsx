@@ -27,7 +27,11 @@ function Bosses() {
 
             <h1>Listado de todos los jefes</h1>
             <p>Aquí tienes toda la información de todos los jefes de Dark Souls</p>
-
+            <p>Busca los jefes por aparición del juego!</p>
+            <p>Todos los jefes</p>
+            <button style={{ backgroundColor: "#299039", color: "white", padding: "10px 10px", border: "none", cursor: "pointer", }}>Dark Souls 1</button>
+            <button style={{ backgroundColor: "#25348a", color: "white", padding: "10px 10px", border: "none", cursor: "pointer", }}>Dark Souls 2</button>
+            <button style={{ backgroundColor: "#731b2c ", color: "white", padding: "10px 10px", border: "none", cursor: "pointer", }}>Dark Souls 3</button>
             <button style={{ position: "absolute", top: "20px", left: "20px", fontSize: "18px", padding: "10px 20px", backgroundColor: "#f2a90d", }} onClick={volverAtras}
             >Atrás
             </button>
@@ -52,5 +56,3 @@ function Bosses() {
 }
 
 export default Bosses;
-
-//{`/comments/${boss.id}`}>
